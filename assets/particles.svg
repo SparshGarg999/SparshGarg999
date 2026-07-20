@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <!-- Glow Filters for Neon Particles -->
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glowMagenta" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes floatUp1 {
+        0% { transform: translate(0, 520px) scale(0.8); opacity: 0; }
+        10% { opacity: 0.8; }
+        90% { opacity: 0.8; }
+        100% { transform: translate(60px, -20px) scale(1.2); opacity: 0; }
+      }
+      @keyframes floatUp2 {
+        0% { transform: translate(0, 520px) scale(1.2); opacity: 0; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { transform: translate(-80px, -20px) scale(0.6); opacity: 0; }
+      }
+      @keyframes floatUp3 {
+        0% { transform: translate(0, 520px) scale(1); opacity: 0; }
+        20% { opacity: 0.7; }
+        80% { opacity: 0.7; }
+        100% { transform: translate(40px, -20px) scale(0.8); opacity: 0; }
+      }
+
+      .p-c1 { animation: floatUp1 12s linear infinite; }
+      .p-c2 { animation: floatUp2 8s linear infinite; }
+      .p-c3 { animation: floatUp3 15s linear infinite; }
+
+      .p-m1 { animation: floatUp2 10s linear infinite; }
+      .p-m2 { animation: floatUp3 11s linear infinite; }
+      .p-m3 { animation: floatUp1 14s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Cyan Floating Particles -->
+  <circle cx="150" cy="0" r="3" fill="#00f0ff" filter="url(#glowCyan)" class="p-c1" style="animation-delay: 0s;" />
+  <circle cx="350" cy="0" r="4.5" fill="#00f0ff" filter="url(#glowCyan)" class="p-c2" style="animation-delay: 2.5s;" />
+  <circle cx="580" cy="0" r="2.5" fill="#00f0ff" filter="url(#glowCyan)" class="p-c3" style="animation-delay: 1s;" />
+  <circle cx="780" cy="0" r="3.5" fill="#00f0ff" filter="url(#glowCyan)" class="p-c1" style="animation-delay: 5s;" />
+  <circle cx="920" cy="0" r="2" fill="#00f0ff" filter="url(#glowCyan)" class="p-c2" style="animation-delay: 3.8s;" />
+
+  <!-- Magenta/Purple Floating Particles -->
+  <circle cx="100" cy="0" r="4.5" fill="#bd00ff" filter="url(#glowMagenta)" class="p-m1" style="animation-delay: 1.5s;" />
+  <circle cx="280" cy="0" r="2.5" fill="#ff007a" filter="url(#glowMagenta)" class="p-m2" style="animation-delay: 0.5s;" />
+  <circle cx="480" cy="0" r="3.5" fill="#bd00ff" filter="url(#glowMagenta)" class="p-m3" style="animation-delay: 4.2s;" />
+  <circle cx="670" cy="0" r="4" fill="#ff007a" filter="url(#glowMagenta)" class="p-m1" style="animation-delay: 3s;" />
+  <circle cx="850" cy="0" r="3" fill="#bd00ff" filter="url(#glowMagenta)" class="p-m2" style="animation-delay: 5.5s;" />
+
+  <!-- White Floating Dust -->
+  <circle cx="220" cy="0" r="1.5" fill="#fff" class="p-c3" style="animation-delay: 2s;" />
+  <circle cx="400" cy="0" r="2" fill="#fff" class="p-c1" style="animation-delay: 6s;" />
+  <circle cx="620" cy="0" r="1" fill="#fff" class="p-c2" style="animation-delay: 0.8s;" />
+  <circle cx="710" cy="0" r="2.5" fill="#fff" class="p-m3" style="animation-delay: 1.8s;" />
+  <circle cx="960" cy="0" r="1.8" fill="#fff" class="p-m1" style="animation-delay: 4.8s;" />
+</svg>

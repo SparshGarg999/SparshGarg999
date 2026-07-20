@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="100%">
+  <defs>
+    <!-- Cyan Fade Gradient -->
+    <linearGradient id="gridFade" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.0" />
+      <stop offset="60%" stop-color="#00f0ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Scanning Line Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes scan {
+        0% { transform: translateY(0); opacity: 0; }
+        10% { opacity: 0.8; }
+        90% { opacity: 0.8; }
+        100% { transform: translateY(400px); opacity: 0; }
+      }
+      .scanner {
+        animation: scan 6s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Perspective Vanishing Lines -->
+  <g stroke="url(#gridFade)" stroke-width="1.5" fill="none">
+    <!-- Lines radiating from vanishing point at (500, 0) -->
+    <line x1="500" y1="0" x2="-300" y2="400" />
+    <line x1="500" y1="0" x2="-170" y2="400" />
+    <line x1="500" y1="0" x2="-40" y2="400" />
+    <line x1="500" y1="0" x2="90" y2="400" />
+    <line x1="500" y1="0" x2="220" y2="400" />
+    <line x1="500" y1="0" x2="350" y2="400" />
+    <line x1="500" y1="0" x2="440" y2="400" />
+    <line x1="500" y1="0" x2="500" y2="400" /> <!-- Center -->
+    <line x1="500" y1="0" x2="560" y2="400" />
+    <line x1="500" y1="0" x2="650" y2="400" />
+    <line x1="500" y1="0" x2="780" y2="400" />
+    <line x1="500" y1="0" x2="910" y2="400" />
+    <line x1="500" y1="0" x2="1040" y2="400" />
+    <line x1="500" y1="0" x2="1170" y2="400" />
+    <line x1="500" y1="0" x2="1300" y2="400" />
+  </g>
+
+  <!-- Perspective Horizontal Lines (Exponentially spaced) -->
+  <g stroke="url(#gridFade)" stroke-width="1.5" fill="none">
+    <line x1="-300" y1="0" x2="1300" y2="0" stroke-opacity="0.05" />
+    <line x1="-300" y1="10" x2="1300" y2="10" stroke-opacity="0.08" />
+    <line x1="-300" y1="25" x2="1300" y2="25" stroke-opacity="0.12" />
+    <line x1="-300" y1="45" x2="1300" y2="45" stroke-opacity="0.17" />
+    <line x1="-300" y1="72" x2="1300" y2="72" stroke-opacity="0.22" />
+    <line x1="-300" y1="108" x2="1300" y2="108" stroke-opacity="0.28" />
+    <line x1="-300" y1="155" x2="1300" y2="155" stroke-opacity="0.35" />
+    <line x1="-300" y1="216" x2="1300" y2="216" stroke-opacity="0.45" />
+    <line x1="-300" y1="295" x2="1300" y2="295" stroke-opacity="0.55" />
+    <line x1="-300" y1="400" x2="1300" y2="400" stroke-opacity="0.70" />
+  </g>
+
+  <!-- Glowing Scanner Bar -->
+  <rect x="-300" y="0" width="1600" height="20" fill="url(#scanGrad)" class="scanner" filter="url(#neonGlow)" />
+</svg>

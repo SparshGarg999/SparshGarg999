@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c" />
+      <stop offset="50%" stop-color="#0b101d" />
+      <stop offset="100%" stop-color="#030407" />
+    </linearGradient>
+
+    <!-- Grid Fade Gradient -->
+    <linearGradient id="gridFade" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.0" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.25" />
+    </linearGradient>
+
+    <!-- Glassmorphic Card Radial Gradient -->
+    <radialGradient id="cardGlow" cx="0%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </radialGradient>
+
+    <!-- Blue Neon Glow -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Magenta Neon Glow -->
+    <filter id="magentaGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Glowing Text Filter -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes rotateGlobe {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes floatCube {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-15px) rotate(5deg); }
+      }
+      @keyframes floatCubeReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(12px) rotate(-8deg); }
+      }
+      @keyframes cursorBlink {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      @keyframes scanLine {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(300px); }
+      }
+      @keyframes typing {
+        0% { width: 0; }
+        50%, 100% { width: 330px; }
+      }
+      @keyframes flicker {
+        0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% { opacity: 0.99; }
+        20%, 21.999%, 63%, 63.999%, 65%, 69.999% { opacity: 0.4; }
+      }
+
+      /* Classes */
+      .globe-spin {
+        animation: rotateGlobe 20s linear infinite;
+        transform-origin: 220px 250px;
+      }
+      .cube-float-1 {
+        animation: floatCube 6s ease-in-out infinite;
+        transform-origin: 100px 120px;
+      }
+      .cube-float-2 {
+        animation: floatCubeReverse 8s ease-in-out infinite;
+        transform-origin: 880px 380px;
+      }
+      .hud-card {
+        backdrop-filter: blur(10px);
+      }
+      .cursor {
+        animation: cursorBlink 1s step-end infinite;
+      }
+      .scanner-bar {
+        animation: scanLine 8s linear infinite;
+      }
+      .flicker-text {
+        animation: flicker 4s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Space Background -->
+  <rect width="100%" height="100%" fill="url(#heroBg)" />
+
+  <!-- Stars Background -->
+  <g fill="#fff">
+    <circle cx="80" cy="70" r="1" opacity="0.3" />
+    <circle cx="280" cy="40" r="1.5" opacity="0.6" />
+    <circle cx="780" cy="60" r="1" opacity="0.4" />
+    <circle cx="920" cy="90" r="1.2" opacity="0.5" />
+    <circle cx="150" cy="380" r="1.5" opacity="0.4" />
+    <circle cx="820" cy="420" r="1" opacity="0.3" />
+  </g>
+
+  <!-- Perspective Floor Grid (at the bottom) -->
+  <g stroke="url(#gridFade)" stroke-width="1.5" fill="none" transform="translate(0, 180)">
+    <!-- Radiating vanishing lines -->
+    <line x1="500" y1="0" x2="-200" y2="320" />
+    <line x1="500" y1="0" x2="50" y2="320" />
+    <line x1="500" y1="0" x2="280" y2="320" />
+    <line x1="500" y1="0" x2="500" y2="320" />
+    <line x1="500" y1="0" x2="720" y2="320" />
+    <line x1="500" y1="0" x2="950" y2="320" />
+    <line x1="500" y1="0" x2="1200" y2="320" />
+    <!-- Horizontal lines -->
+    <line x1="-200" y1="20" x2="1200" y2="20" stroke-opacity="0.1" />
+    <line x1="-200" y1="50" x2="1200" y2="50" stroke-opacity="0.2" />
+    <line x1="-200" y1="95" x2="1200" y2="95" stroke-opacity="0.3" />
+    <line x1="-200" y1="160" x2="1200" y2="160" stroke-opacity="0.5" />
+    <line x1="-200" y1="260" x2="1200" y2="260" stroke-opacity="0.75" />
+  </g>
+
+  <!-- Floating 3D Cubes -->
+  <!-- Left floating cube -->
+  <g class="cube-float-1" transform="translate(100, 100) scale(0.65)">
+    <!-- Top Face -->
+    <polygon points="50,0 100,25 50,50 0,25" fill="#00ffff" opacity="0.6" />
+    <!-- Left Face -->
+    <polygon points="0,25 50,50 50,100 0,75" fill="#00a8ff" opacity="0.7" />
+    <!-- Right Face -->
+    <polygon points="50,50 100,25 100,75 50,100" fill="#0055ff" opacity="0.8" />
+    <!-- Wireframe Outline -->
+    <polygon points="50,0 100,25 100,75 50,100 0,75 0,25" fill="none" stroke="#ffffff" stroke-width="2" />
+  </g>
+
+  <!-- Right floating cube -->
+  <g class="cube-float-2" transform="translate(860, 360) scale(0.55)">
+    <!-- Top Face -->
+    <polygon points="50,0 100,25 50,50 0,25" fill="#ff007a" opacity="0.5" />
+    <!-- Left Face -->
+    <polygon points="0,25 50,50 50,100 0,75" fill="#bd00ff" opacity="0.7" />
+    <!-- Right Face -->
+    <polygon points="50,50 100,25 100,75 50,100" fill="#7b00ff" opacity="0.8" />
+    <!-- Wireframe Outline -->
+    <polygon points="50,0 100,25 100,75 50,100 0,75 0,25" fill="none" stroke="#ffffff" stroke-width="1.5" />
+  </g>
+
+  <!-- Rotating Wireframe Globe (Left Side) -->
+  <g transform="translate(0, 0)">
+    <!-- Outer Glow Rings -->
+    <ellipse cx="220" cy="250" rx="145" ry="145" fill="none" stroke="#bd00ff" stroke-opacity="0.2" stroke-width="2" filter="url(#magentaGlow)" />
+    <ellipse cx="220" cy="250" rx="130" ry="60" fill="none" stroke="#00f0ff" stroke-opacity="0.3" stroke-width="1.5" transform="rotate(30 220 250)" />
+    <ellipse cx="220" cy="250" rx="130" ry="60" fill="none" stroke="#ff007a" stroke-opacity="0.3" stroke-width="1.5" transform="rotate(-30 220 250)" />
+    
+    <!-- Rotating Globe Group -->
+    <g class="globe-spin">
+      <!-- Outer Sphere boundary -->
+      <circle cx="220" cy="250" r="115" fill="none" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="2" filter="url(#cyanGlow)" />
+      
+      <!-- Longitude Lines -->
+      <ellipse cx="220" cy="250" rx="80" ry="115" fill="none" stroke="#00f0ff" stroke-opacity="0.25" stroke-width="1" />
+      <ellipse cx="220" cy="250" rx="40" ry="115" fill="none" stroke="#00f0ff" stroke-opacity="0.25" stroke-width="1" />
+      <line x1="220" y1="135" x2="220" y2="365" stroke="#00f0ff" stroke-opacity="0.3" stroke-width="1.5" />
+      
+      <!-- Latitude Lines -->
+      <ellipse cx="220" cy="250" rx="115" ry="80" fill="none" stroke="#00f0ff" stroke-opacity="0.25" stroke-width="1" />
+      <ellipse cx="220" cy="250" rx="115" ry="40" fill="none" stroke="#00f0ff" stroke-opacity="0.25" stroke-width="1" />
+      <line x1="105" y1="250" x2="335" y2="250" stroke="#00f0ff" stroke-opacity="0.3" stroke-width="1.5" />
+
+      <!-- Nodes / Tech Connections -->
+      <circle cx="220" cy="135" r="4" fill="#fff" filter="url(#textGlow)" />
+      <circle cx="220" cy="365" r="4" fill="#fff" />
+      <circle cx="105" cy="250" r="4" fill="#bd00ff" filter="url(#magentaGlow)" />
+      <circle cx="335" cy="250" r="4" fill="#00f0ff" filter="url(#cyanGlow)" />
+      <circle cx="160" cy="200" r="3" fill="#fff" />
+      <circle cx="280" cy="300" r="3" fill="#ff007a" />
+      <circle cx="280" cy="180" r="3" fill="#fff" />
+    </g>
+
+    <!-- Tilted Satellite Orbit -->
+    <path d="M 90 280 Q 220 180 350 220" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-dasharray="5 5" />
+    <circle cx="350" cy="220" r="5" fill="#ff007a" filter="url(#magentaGlow)" />
+  </g>
+
+  <!-- Glassmorphic Hologram Panel (Right Side) -->
+  <g transform="translate(450, 75)">
+    <!-- Glow behind the card -->
+    <rect x="-5" y="-5" width="490" height="310" rx="15" fill="#bd00ff" fill-opacity="0.08" filter="url(#magentaGlow)" />
+    <rect x="0" y="0" width="480" height="300" rx="10" fill="#00f0ff" fill-opacity="0.03" filter="url(#cyanGlow)" />
+
+    <!-- Glass card container -->
+    <rect x="0" y="0" width="480" height="300" rx="10" fill="url(#cardGlow)" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1.5" class="hud-card" />
+    
+    <!-- Cyber Corners (Holographic Crop Marks) -->
+    <!-- Top-Left corner -->
+    <path d="M 0 25 L 0 0 L 25 0" fill="none" stroke="#00f0ff" stroke-width="3.5" />
+    <!-- Top-Right corner -->
+    <path d="M 480 25 L 480 0 L 455 0" fill="none" stroke="#00f0ff" stroke-width="3.5" />
+    <!-- Bottom-Left corner -->
+    <path d="M 0 275 L 0 300 L 25 300" fill="none" stroke="#00f0ff" stroke-width="3.5" />
+    <!-- Bottom-Right corner -->
+    <path d="M 480 275 L 480 300 L 455 300" fill="none" stroke="#00f0ff" stroke-width="3.5" />
+
+    <!-- Scanning line effect inside panel -->
+    <line x1="2" y1="0" x2="478" y2="0" stroke="#00f0ff" stroke-opacity="0.25" stroke-width="2" class="scanner-bar" filter="url(#cyanGlow)" />
+
+    <!-- Telemetry Headers -->
+    <text x="25" y="30" fill="#00f0ff" font-family="'Courier New', monospace" font-size="11" letter-spacing="2">SYS_OP: ACTIVE</text>
+    <text x="350" y="30" fill="#bd00ff" font-family="'Courier New', monospace" font-size="11" letter-spacing="2" filter="url(#textGlow)">SEC_ID: 999_A</text>
+    <line x1="25" y1="42" x2="455" y2="42" stroke="#00f0ff" stroke-opacity="0.2" stroke-width="1" />
+
+    <!-- Sparsh Garg (Name Text) -->
+    <text x="25" y="90" fill="#ffffff" font-family="'Outfit', 'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="42" letter-spacing="1.5" class="flicker-text" filter="url(#textGlow)">SPARSH GARG</text>
+    
+    <!-- Title / Subtitle -->
+    <text x="25" y="125" fill="#00f0ff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="16" letter-spacing="1">SOFTWARE ENGINEER</text>
+    
+    <!-- Short dynamic-looking console output -->
+    <g font-family="'Courier New', monospace" font-size="13">
+      <text x="25" y="165" fill="#8892b0">&gt; LOC: Noida, India (Genpact)</text>
+      <text x="25" y="190" fill="#8892b0">&gt; SKILLS: Python | FastAPI | React | LangChain</text>
+      <text x="25" y="215" fill="#8892b0">&gt; CORE: Generative AI &amp; Enterprise Automations</text>
+      
+      <!-- Blinking Cursor Command line -->
+      <text x="25" y="245" fill="#00f0ff" font-weight="bold">&gt; Initializing neural research agents...<tspan class="cursor">_</tspan></text>
+    </g>
+
+    <!-- Neon Status Indicators / Buttons -->
+    <g transform="translate(25, 262)">
+      <!-- Status Light -->
+      <circle cx="5" cy="5" r="4" fill="#00f0ff" filter="url(#cyanGlow)" />
+      <text x="18" y="9" fill="#00f0ff" font-family="'Courier New', monospace" font-size="10" letter-spacing="1">AGENT_STABLE</text>
+      
+      <!-- Second Indicator -->
+      <circle cx="150" cy="5" r="4" fill="#ff007a" filter="url(#magentaGlow)" />
+      <text x="163" y="9" fill="#ff007a" font-family="'Courier New', monospace" font-size="10" letter-spacing="1">SIH_RUNNER_UP</text>
+    </g>
+  </g>
+</svg>
