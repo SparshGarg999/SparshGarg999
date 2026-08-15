@@ -23,11 +23,62 @@
 
 ---
 
-## 💬 Cyber Assistant Messenger (Live Profile System)
+## 🌐 3D Global Open Source Ecosystem
 
 <p align="center">
-  <img src="assets/cyber-messenger.svg" alt="Sparsh AI Assistant Cyber Messenger" width="100%" />
+  <img src="assets/3d-globe.svg" alt="Sparsh Garg 3D Holographic Globe" width="100%" />
 </p>
+
+---
+
+## 💬 Click-to-Chat Interactive Assistant
+
+<div align="center">
+
+<details>
+<summary><b>💼 CLICK TO CHAT: "What is Sparsh's current role at Genpact?"</b></summary>
+<br/>
+<blockquote align="left">
+  <b>💬 Sparsh AI Assistant:</b><br/>
+  Sparsh is a <b>Software Developer at Genpact</b> engineering enterprise workflow automations.<br/>
+  He builds high-throughput ServiceNow & Esker workflow automations integrated with Large Language Models (LLMs) and multi-agent AI architectures.
+</blockquote>
+</details>
+
+<details>
+<summary><b>🏆 CLICK TO CHAT: "Show Sparsh's Open Source PRs (React, TensorFlow, Microsoft)"</b></summary>
+<br/>
+<blockquote align="left">
+  <b>💬 Sparsh AI Assistant:</b><br/>
+  Sparsh actively contributes to top global tech repositories:<br/>
+  • <b>Facebook / React</b> (<code>facebook/react</code>): Fixed DevTools Store crash during child reorders on filtered Suspense boundaries (<a href="https://github.com/react/react/pull/37018">PR #37018</a>).<br/>
+  • <b>Google / TensorFlow</b> (<code>tensorflow/tensorflow</code>): Fixed XLA constant propagation & scalar dtype coercion in graph execution (<a href="https://github.com/tensorflow/tensorflow/pull/125381">PR #125381</a> & <a href="https://github.com/tensorflow/tensorflow/pull/125382">PR #125382</a>).<br/>
+  • <b>Microsoft / ASP.NET Core & VS Code</b>: Runtime routing and editor enhancements.<br/>
+  • <b>Kubernetes</b>: Orchestration utilities & developer tooling.
+</blockquote>
+</details>
+
+<details>
+<summary><b>🪐 CLICK TO CHAT: "Tell me about NEXUS Autonomous Multi-Agent AI System"</b></summary>
+<br/>
+<blockquote align="left">
+  <b>💬 Sparsh AI Assistant:</b><br/>
+  <b>NEXUS</b> is an autonomous multi-agent AI research hub capable of fetching live web intelligence, performing citation-backed reasoning, and generating full technical reports using Python, FastAPI, LangChain, and WebSockets.
+</blockquote>
+</details>
+
+<details>
+<summary><b>⚔️ CLICK TO CHAT: "What are Sparsh's competitive programming stats?"</b></summary>
+<br/>
+<blockquote align="left">
+  <b>💬 Sparsh AI Assistant:</b><br/>
+  • <b>LeetCode Knight</b> with a peak rating of <b>1900+</b>.<br/>
+  • <b>Smart India Hackathon 2022</b> National Runner-Up (competing against 20,000+ teams).<br/>
+  • <b>CodeChef 3-Star</b> (Global Ranks 75 & 114).
+</blockquote>
+</details>
+
+</div>
 
 ---
 
