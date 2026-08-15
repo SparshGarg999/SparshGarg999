@@ -2,6 +2,7 @@
 <h3 align="center">Software Developer & Multi-Agent AI Architect</h3>
 
 <p align="center">
+  <!-- Typing SVG by DenverCoder1 -->
   <a href="https://github.com/SparshGarg999">
     <img src="https://readme-typing-svg.demolab.com/?lines=Software%20Developer%20%40%20Genpact;Open%20Source%20Contributor%20%40%20Google%2C%20Facebook%2C%20Microsoft%2C%20Kubernetes;LeetCode%20Knight%20(1900%2B%20Rating)%20%7C%20SIH%20%2722%20Runner-Up;Building%20Enterprise%20AI%20%26%20Workflow%20Automations&font=Fira%20Code&center=true&width=680&height=45&color=00F0FF&vCenter=true&pause=1000&size=19" alt="Sparsh Garg Typing Banner" />
   </a>
@@ -68,19 +69,49 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 ### 📘 Featured Systems & Projects
 
-<p align="center">
-  <a href="https://github.com/SparshGarg999/NEXUS">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=SparshGarg999&repo=NEXUS&theme=tokyonight&show_owner=true" alt="NEXUS" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/SparshGarg999/ExamArchitect">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=SparshGarg999&repo=ExamArchitect&theme=tokyonight&show_owner=true" alt="ExamArchitect" />
-  </a>
-</p>
-
-- 🪐 **[NEXUS](https://github.com/SparshGarg999/NEXUS)** &mdash; Autonomous multi-agent AI research hub with citation-backed intelligence reports (Python, FastAPI, LangChain, WebSockets).
-- 📐 **[ExamArchitect](https://github.com/SparshGarg999/ExamArchitect)** &mdash; Academic analytics portal with PDF parsing & prediction engine (React, Gemini 2.5 Flash, PostgreSQL).
-- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🪐 <a href="https://github.com/SparshGarg999/NEXUS">NEXUS</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" />
+      </p>
+      <p>Autonomous multi-agent AI research hub with citation-backed intelligence reports, multi-threaded task decomposition, and real-time WebSocket telemetry streams.</p>
+      <p align="center">
+        <a href="https://github.com/SparshGarg999/NEXUS"><b>Explore Repository ➔</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📐 <a href="https://github.com/SparshGarg999/ExamArchitect">ExamArchitect</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Gemini_2.5_Flash-4285F4?style=flat-square&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+      <p>AI-driven academic analytics portal with high-throughput PDF syllabus parsing, question pattern prediction engines, and student performance insights.</p>
+      <p align="center">
+        <a href="https://github.com/SparshGarg999/ExamArchitect"><b>Explore Repository ➔</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">💼 <a href="https://github.com/SparshGarg999/TarunPortfolio">TarunPortfolio</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+      </p>
+      <p align="center">Modern interactive portfolio web application built with Three.js 3D WebGL components, Lenis smooth scrolling, and dynamic stateful AI chatbot widgets.</p>
+      <p align="center">
+        <a href="https://github.com/SparshGarg999/TarunPortfolio"><b>Explore Repository ➔</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -101,20 +132,6 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/ServiceNow-81B441?style=for-the-badge&logo=servicenow&logoColor=white" alt="ServiceNow" />
-</p>
-
----
-
-### 📊 Live GitHub Analytics
-
-<p align="center">
-  <a href="https://github.com/SparshGarg999">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=SparshGarg999&show_icons=true&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Stats" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/SparshGarg999">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SparshGarg999&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
-  </a>
 </p>
 
 ---
