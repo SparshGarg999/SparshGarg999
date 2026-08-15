@@ -23,71 +23,17 @@
 
 ---
 
-<div align="center">
+## 🌐 3D Interactive WebGL Globe & Real-Time AI Cyber Messenger
 
-<table style="border: 1px solid #30363d; border-radius: 12px; background: #0d1117; width: 100%;">
-<tr>
-<td style="padding: 16px;">
-
-<p align="left">
-  🔴 &nbsp; 🟡 &nbsp; 🟢 &nbsp;&nbsp;&nbsp; <b>💬 SPARSH CYBER MESSENGER &amp; 3D ECOSYSTEM v2.5</b> &nbsp;&nbsp;&nbsp; <code>● ONLINE</code>
+<p align="center">
+  <a href="https://github.com/SparshGarg999/TarunPortfolio">
+    <img src="assets/3d-globe.svg" alt="Sparsh Garg 3D Holographic Globe & Real-Time Messenger" width="100%" />
+  </a>
 </p>
-<hr style="border: 1px solid #30363d;"/>
 
-<img src="assets/3d-globe.svg" alt="Sparsh Garg 3D Globe" width="100%" />
-
-<hr style="border: 1px solid #30363d;"/>
-
-<p align="left"><b>👇 Click any message bubble below to chat and reveal responses in real-time:</b></p>
-
-<details align="left">
-  <summary><b>💼 [CLICK TO CHAT]: What is Sparsh's current role at Genpact?</b></summary>
-  <br/>
-  <blockquote style="background: #161b22; border-left: 4px solid #00f0ff; color: #e6edf3; padding: 10px;">
-    <b>🤖 Sparsh AI Assistant:</b><br/>
-    Sparsh is a <b>Software Developer at Genpact</b> engineering enterprise workflow automations.<br/>
-    He builds high-throughput ServiceNow &amp; Esker workflow automations integrated with Large Language Models (LLMs) and multi-agent AI architectures.
-  </blockquote>
-</details>
-
-<details align="left">
-  <summary><b>🏆 [CLICK TO CHAT]: Show Sparsh's Open Source PRs (React, TensorFlow, Microsoft)</b></summary>
-  <br/>
-  <blockquote style="background: #161b22; border-left: 4px solid #7ee787; color: #e6edf3; padding: 10px;">
-    <b>🤖 Sparsh AI Assistant:</b><br/>
-    Sparsh actively contributes to top global tech repositories:<br/>
-    • <b>Facebook / React</b> (<code>facebook/react</code>): Fixed DevTools Store crash during child reorders on filtered Suspense boundaries (<a href="https://github.com/react/react/pull/37018">PR #37018</a>).<br/>
-    • <b>Google / TensorFlow</b> (<code>tensorflow/tensorflow</code>): Fixed XLA constant propagation &amp; scalar dtype coercion in graph execution (<a href="https://github.com/tensorflow/tensorflow/pull/125381">PR #125381</a> &amp; <a href="https://github.com/tensorflow/tensorflow/pull/125382">PR #125382</a>).<br/>
-    • <b>Microsoft / ASP.NET Core &amp; VS Code</b>: Runtime routing and editor enhancements.<br/>
-    • <b>Kubernetes</b>: Orchestration utilities &amp; developer tooling.
-  </blockquote>
-</details>
-
-<details align="left">
-  <summary><b>🪐 [CLICK TO CHAT]: Tell me about NEXUS Autonomous Multi-Agent AI System</b></summary>
-  <br/>
-  <blockquote style="background: #161b22; border-left: 4px solid #d2a8ff; color: #e6edf3; padding: 10px;">
-    <b>🤖 Sparsh AI Assistant:</b><br/>
-    <b>NEXUS</b> is an autonomous multi-agent AI research hub capable of fetching live web intelligence, performing citation-backed reasoning, and generating full technical reports using Python, FastAPI, LangChain, and WebSockets.
-  </blockquote>
-</details>
-
-<details align="left">
-  <summary><b>⚔️ [CLICK TO CHAT]: What are Sparsh's competitive programming stats?</b></summary>
-  <br/>
-  <blockquote style="background: #161b22; border-left: 4px solid #ffa657; color: #e6edf3; padding: 10px;">
-    <b>🤖 Sparsh AI Assistant:</b><br/>
-    • <b>LeetCode Knight</b> with a peak rating of <b>1900+</b>.<br/>
-    • <b>Smart India Hackathon 2022</b> National Runner-Up (competing against 20,000+ teams).<br/>
-    • <b>CodeChef 3-Star</b> (Global Ranks 75 &amp; 114).
-  </blockquote>
-</details>
-
-</td>
-</tr>
-</table>
-
-</div>
+<p align="center">
+  👉 <b><a href="https://github.com/SparshGarg999/TarunPortfolio">LAUNCH REAL-TIME 3D WEB APP &amp; AI CHATBOT 🚀</a></b>
+</p>
 
 ---
 
@@ -118,7 +64,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 - 🪐 **[NEXUS](https://github.com/SparshGarg999/NEXUS)** &mdash; Autonomous multi-agent AI research hub with citation-backed intelligence reports (Python, FastAPI, LangChain, WebSockets).
 - 📐 **[ExamArchitect](https://github.com/SparshGarg999/ExamArchitect)** &mdash; Academic analytics portal with PDF parsing & prediction engine (React, Gemini 2.5 Flash, PostgreSQL).
-- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling.
+- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling and 3D WebGL Globe.
 
 ---
 
