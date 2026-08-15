@@ -4,7 +4,7 @@
 <p align="center">
   <!-- Typing SVG by DenverCoder1 -->
   <a href="https://github.com/SparshGarg999">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Software%20Developer%20%40%20Genpact;Open%20Source%20Contributor%20%40%20Google%2C%20Facebook%2C%20Microsoft%2C%20Kubernetes;LeetCode%20Knight%20(1900%2B%20Rating)%20%7C%20SIH%20%2722%20Runner-Up;Building%20Enterprise%20AI%20%26%20Workflow%20Automations&font=Fira%20Code&center=true&width=680&height=45&color=00F0FF&vCenter=true&pause=1000&size=19" alt="Sparsh Garg Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=AI%20%26%20Systems%20Engineer;Multi-Agent%20AI%20%26%20Distributed%20Systems%20Architect;Open%20Source%20Contributor%20%40%20Google%2C%20Facebook%2C%20Microsoft%2C%20Kubernetes;LeetCode%20Knight%20(1900%2B%20Rating)%20%7C%20SIH%20%2722%20Runner-Up;Building%20Autonomous%20AI%20%26%20Workflow%20Automations&font=Fira%20Code&center=true&width=680&height=45&color=00F0FF&vCenter=true&pause=1000&size=19" alt="Sparsh Garg Typing Banner" />
   </a>
 </p>
 
@@ -49,9 +49,9 @@
 
 ### ⚡ About Me
 
-I am a **Software Engineer** specializing in enterprise automation, multi-agent AI architectures, and high-performance software systems.
+I am a **Software Engineer & AI Architect** specializing in enterprise automation, multi-agent AI architectures, and high-performance software systems.
 
-- 💼 **Current Role**: Software Developer at **Genpact**, engineering ServiceNow & Esker workflow automations integrated with Large Language Models (LLMs).
+- 💼 **Focus**: Engineering autonomous multi-agent AI architectures, workflow automations, and Large Language Models (LLMs).
 - 🌐 **Open Source**: Contributor to major industry frameworks and runtimes across **Google (TensorFlow)**, **Facebook (React)**, **Microsoft (VS Code, Winget-Pkgs, ASP.NET Core)**, and **Kubernetes**.
 - 🏆 **Competitive Programming**: **LeetCode Knight** (Peak Rating: 1900+) & **Smart India Hackathon 2022** National Runner-Up.
 
