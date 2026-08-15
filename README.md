@@ -10,7 +10,7 @@
 
 <!-- Social Links Section -->
 <p align="center">
-  <a href="https://github.com/SparshGarg999/TarunPortfolio">
+  <a href="https://sparsh-portfolio-zdlc.onrender.com">
     <img src="https://img.shields.io/badge/Live_Portfolio-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Portfolio" />
   </a>
   &nbsp;
@@ -76,7 +76,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3 align="center">🌐 <a href="https://github.com/SparshGarg999/TarunPortfolio">Sparsh Garg &mdash; 3D Interactive Cyber Portfolio</a></h3>
+      <h3 align="center">🌐 <a href="https://sparsh-portfolio-zdlc.onrender.com">Sparsh Garg &mdash; 3D Interactive Cyber Portfolio</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
@@ -85,7 +85,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
       </p>
       <p align="center">Modern interactive developer portfolio web application built with Three.js 3D WebGL globe controls, real-time AI Cyber Messenger chatbot assistant, Lenis smooth scrolling, and responsive project showcases.</p>
       <p align="center">
-        <a href="https://github.com/SparshGarg999/TarunPortfolio"><b>🚀 Launch Live Web App</b></a> &nbsp;|&nbsp; <a href="https://github.com/SparshGarg999/TarunPortfolio"><b>💻 View Source Code</b></a>
+        <a href="https://sparsh-portfolio-zdlc.onrender.com"><b>🚀 Launch Live Web App (onrender.com)</b></a> &nbsp;|&nbsp; <a href="https://github.com/SparshGarg999/sparsh-portfolio"><b>💻 View Source Code</b></a>
       </p>
     </td>
   </tr>
