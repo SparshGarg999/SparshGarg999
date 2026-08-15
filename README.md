@@ -22,6 +22,18 @@
 
 ---
 
+## 🌐 3D Contribution Graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg">
+    <img alt="Sparsh Garg 3D Contribution Graph" src="profile-3d-contrib/profile-night-view.svg" width="100%">
+  </picture>
+</p>
+
+---
+
 ## ⚡ About Me
 
 I am a **Software Engineer** specializing in enterprise automation, multi-agent AI architectures, and high-performance software systems.
@@ -36,7 +48,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 | Organization / Repo | Contribution & Impact | Status |
 | :--- | :--- | :---: |
-| **⚛️ Facebook / React**<br/>`facebook/react` | Fixed DevTools Store crash during child reorders on filtered Suspense boundaries in `renderer.js` while preserving core error assertions. | [<img src="https://img.shields.io/badge/PR_%2337018-Active_PR-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React PR" />](https://github.com/react/react/pull/37018) |
+| **⚛️ Facebook / React**<br/>`facebook/react` | Fixed DevTools Store crash during child reorders on filtered Suspense boundaries in `renderer.js`. | [<img src="https://img.shields.io/badge/PR_%2337018-Active_PR-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React PR" />](https://github.com/react/react/pull/37018) |
 | **🔷 Microsoft / ASP.NET Core**<br/>`dotnet/aspnetcore` | Framework runtime & HTTP routing enhancements. | [<img src="https://img.shields.io/badge/Microsoft-ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />](https://github.com/dotnet/aspnetcore) |
 | **💻 Microsoft / VS Code**<br/>`microsoft/vscode` | Core editor UI and functionality fixes. | [<img src="https://img.shields.io/badge/Microsoft-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />](https://github.com/microsoft/vscode) |
 | **☸️ Kubernetes**<br/>`kubernetes/kubernetes` | Orchestration utilities & developer experience tooling. | [<img src="https://img.shields.io/badge/Kubernetes-Core-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />](https://github.com/kubernetes/kubernetes) |
@@ -70,7 +82,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Activity
 
 <p align="center">
   <a href="https://github.com/SparshGarg999">
