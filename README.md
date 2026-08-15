@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Live_Portfolio-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Portfolio" />
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/sparsh-garg/">
+  <a href="https://www.linkedin.com/in/sparsh-garg-2bb2483b2/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
