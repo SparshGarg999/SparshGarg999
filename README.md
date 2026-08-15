@@ -23,20 +23,10 @@
 
 ---
 
-## 🏆 3D Trophy Showcase & Milestone Awards
+## 💬 Cyber Assistant Messenger (Live Profile System)
 
 <p align="center">
-  <a href="https://github.com/SparshGarg999">
-    <img src="https://github-profile-trophy.vercel.app/?username=SparshGarg999&theme=tokyonight&no-bg=true&no-frame=true&column=4" alt="Sparsh Garg 3D Trophies" width="100%" />
-  </a>
-</p>
-
----
-
-## 🐍 Interactive Contribution Snake Game
-
-<p align="center">
-  <img src="assets/github-contribution-grid-snake-dark.svg" alt="Sparsh Garg Cyber Snake Contribution Grid" width="100%" />
+  <img src="assets/cyber-messenger.svg" alt="Sparsh AI Assistant Cyber Messenger" width="100%" />
 </p>
 
 ---
@@ -91,17 +81,12 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 ---
 
-## 📊 Live GitHub Activity & Streak
+## 🏅 Honors & Achievements
 
-<p align="center">
-  <a href="https://github.com/SparshGarg999">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=SparshGarg999&show_icons=true&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Stats" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/SparshGarg999">
-    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=SparshGarg999&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Streak" />
-  </a>
-</p>
+- 🥇 **Smart India Hackathon 2022**: Runner-Up (out of 20,000+ national competing teams).
+- ⚔️ **LeetCode Knight**: Peak Rating **1900+**.
+- ⭐ **CodeChef 3-Star**: Global Ranks **75** and **114** in rated star rounds.
+- 🎯 **CodeKaze**: Top 10 Rank in College division.
 
 ---
 
