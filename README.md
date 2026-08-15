@@ -10,6 +10,10 @@
 
 <!-- Social Links Section -->
 <p align="center">
+  <a href="https://github.com/SparshGarg999/TarunPortfolio">
+    <img src="https://img.shields.io/badge/Live_Portfolio-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Portfolio" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/sparsh-garg/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -71,8 +75,23 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">🌐 <a href="https://github.com/SparshGarg999/TarunPortfolio">Sparsh Garg &mdash; 3D Interactive Cyber Portfolio</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Three.js_WebGL-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+      </p>
+      <p align="center">Modern interactive developer portfolio web application built with Three.js 3D WebGL globe controls, real-time AI Cyber Messenger chatbot assistant, Lenis smooth scrolling, and responsive project showcases.</p>
+      <p align="center">
+        <a href="https://github.com/SparshGarg999/TarunPortfolio"><b>🚀 Launch Live Web App</b></a> &nbsp;|&nbsp; <a href="https://github.com/SparshGarg999/TarunPortfolio"><b>💻 View Source Code</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🪐 <a href="https://github.com/SparshGarg999/NEXUS">NEXUS</a></h3>
+      <h3 align="center">🪐 <a href="https://github.com/SparshGarg999/NEXUS">NEXUS AI</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -93,21 +112,6 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
       <p>AI-driven academic analytics portal with high-throughput PDF syllabus parsing, question pattern prediction engines, and student performance insights.</p>
       <p align="center">
         <a href="https://github.com/SparshGarg999/ExamArchitect"><b>Explore Repository ➔</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="center">💼 <a href="https://github.com/SparshGarg999/TarunPortfolio">TarunPortfolio</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      </p>
-      <p align="center">Modern interactive portfolio web application built with Three.js 3D WebGL components, Lenis smooth scrolling, and dynamic stateful AI chatbot widgets.</p>
-      <p align="center">
-        <a href="https://github.com/SparshGarg999/TarunPortfolio"><b>Explore Repository ➔</b></a>
       </p>
     </td>
   </tr>
