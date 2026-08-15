@@ -23,14 +23,20 @@
 
 ---
 
-## 🌐 3D Contribution Matrix
+## 🏆 3D Trophy Showcase & Milestone Awards
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg">
-    <img alt="Sparsh Garg 3D Contribution Graph" src="profile-3d-contrib/profile-night-view.svg" width="100%">
-  </picture>
+  <a href="https://github.com/SparshGarg999">
+    <img src="https://github-profile-trophy.vercel.app/?username=SparshGarg999&theme=tokyonight&no-bg=true&no-frame=true&column=4" alt="Sparsh Garg 3D Trophies" width="100%" />
+  </a>
+</p>
+
+---
+
+## 🐍 Interactive Contribution Snake Game
+
+<p align="center">
+  <img src="assets/github-contribution-grid-snake-dark.svg" alt="Sparsh Garg Cyber Snake Contribution Grid" width="100%" />
 </p>
 
 ---
@@ -85,16 +91,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 ---
 
-## 🏅 Honors & Achievements
-
-- 🥇 **Smart India Hackathon 2022**: Runner-Up (out of 20,000+ national competing teams).
-- ⚔️ **LeetCode Knight**: Peak Rating **1900+**.
-- ⭐ **CodeChef 3-Star**: Global Ranks **75** and **114** in rated star rounds.
-- 🎯 **CodeKaze**: Top 10 Rank in College division.
-
----
-
-## 📊 Live GitHub Analytics
+## 📊 Live GitHub Activity & Streak
 
 <p align="center">
   <a href="https://github.com/SparshGarg999">
@@ -102,7 +99,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
   </a>
   &nbsp;
   <a href="https://github.com/SparshGarg999">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SparshGarg999&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
+    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=SparshGarg999&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Streak" />
   </a>
 </p>
 
