@@ -1,0 +1,18 @@
+{
+  "board": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " "
+  ],
+  "turn": "X",
+  "moves_played": 0,
+  "games_completed": 0,
+  "last_player": "None",
+  "status": "New game ready! It's your turn (❌)."
+}

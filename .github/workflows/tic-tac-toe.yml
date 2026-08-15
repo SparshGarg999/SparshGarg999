@@ -1,0 +1,42 @@
+name: Interactive Tic-Tac-Toe Engine
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play-move:
+    if: startsWith(github.event.issue.title, 'ttc|move|')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Process Move
+        run: |
+          MOVE_ARG=$(echo "${{ github.event.issue.title }}" | cut -d'|' -f3)
+          PLAYER_USER="${{ github.event.issue.user.login }}"
+          python scripts/tic_tac_toe.py "$MOVE_ARG" "$PLAYER_USER"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md data/tic_tac_toe.json
+          git commit -m "🎮 game: process move from @${{ github.event.issue.user.login }}" || echo "No changes"
+          git push
+
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "Move processed successfully! Check out the updated game board on [@SparshGarg999's profile](https://github.com/SparshGarg999) 🚀"

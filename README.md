@@ -2,11 +2,13 @@
 <h3 align="center">Software Developer & Multi-Agent AI Architect</h3>
 
 <p align="center">
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
   <a href="https://github.com/SparshGarg999">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Software%20Developer%20%26%20Multi-Agent%20AI%20Architect;Open%20Source%20Contributor%20%40%20Facebook%2C%20Microsoft%2C%20Google;LeetCode%20Knight%20(1900%2B%20Rating);Building%20Enterprise%20AI%20%26%20Automation%20Systems&font=Fira%20Code&center=true&width=620&height=50&color=00F0FF&vCenter=true&pause=1000&size=20" alt="Sparsh Garg Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Software%20Developer%20%26%20Multi-Agent%20AI%20Architect;Open%20Source%20Contributor%20%40%20Facebook%2C%20Microsoft%2C%20Google;LeetCode%20Knight%20(1900%2B%20Rating)%20%7C%20SIH%20%2722%20Runner-Up;Building%20Enterprise%20AI%20%26%20Automation%20Systems%20%40%20Genpact&font=Fira%20Code&center=true&width=650&height=50&color=00F0FF&vCenter=true&pause=1000&size=20" alt="Sparsh Garg Typing Banner" />
   </a>
 </p>
 
+<!-- Social Badges Section -->
 <p align="center">
   <a href="https://www.linkedin.com/in/sparsh-garg/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -16,6 +18,10 @@
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
+  <a href="https://leetcode.com/u/SparshGarg/">
+    <img src="https://img.shields.io/badge/LeetCode_Knight-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  &nbsp;
   <a href="https://github.com/SparshGarg999">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
@@ -23,7 +29,7 @@
 
 ---
 
-## 🏙️ 3D Isometric Developer Workstation & City
+## 🏙️ 3D Isometric Developer Island & Cyber City
 
 <p align="center">
   <img src="assets/isometric-island.jpg" alt="Sparsh Garg 3D Isometric Developer Island" width="100%" />
@@ -31,23 +37,21 @@
 
 ---
 
-## 🌐 3D Contribution Skyline & Towers
+## 🎮 Interactive Community Game — Tic-Tac-Toe
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg">
-    <img alt="Sparsh Garg 3D Contribution Skyline" src="profile-3d-contrib/profile-night-view.svg" width="100%">
-  </picture>
-</p>
+<!-- TIC-TAC-TOE-START -->
+**Moves Played:** `0` &nbsp;|&nbsp; **Completed Games:** `0` &nbsp;|&nbsp; **Last Player:** `None`
 
----
+**Status:** New game ready! It's your turn (❌).
 
-## 🐍 3D Animated Contribution Snake Matrix
+| Top | Mid | Right |
+| :---: | :---: | :---: |
+| [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|top-left&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) | [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|top-mid&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) | [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|top-right&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) |
+| [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|mid-left&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) | [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|mid-mid&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) | [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|mid-right&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) |
+| [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|bot-left&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) | [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|bot-mid&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) | [`⬜`](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|bot-right&body=Just+push+%27Submit+new+issue%27+without+editing+the+title.+The+game+bot+will+automatically+play+and+update+the+board!) |
 
-<p align="center">
-  <img src="assets/github-contribution-grid-snake-dark.svg" alt="Sparsh Garg Cyber Snake Contribution Grid" width="100%" />
-</p>
+👉 *Click any empty square [`⬜`] to play as `❌`. [🔄 Reset Game](https://github.com/SparshGarg999/SparshGarg999/issues/new?title=ttc|move|reset&body=Submit+issue+to+start+a+new+game!)*
+<!-- TIC-TAC-TOE-END -->
 
 ---
 
@@ -61,6 +65,24 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 ---
 
+## 📘 My Top Open Source Projects & Systems
+
+<p align="center">
+  <a href="https://github.com/SparshGarg999/NEXUS">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=SparshGarg999&repo=NEXUS&theme=tokyonight&show_owner=true" alt="NEXUS" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/SparshGarg999/ExamArchitect">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=SparshGarg999&repo=ExamArchitect&theme=tokyonight&show_owner=true" alt="ExamArchitect" />
+  </a>
+</p>
+
+- 🪐 **[NEXUS](https://github.com/SparshGarg999/NEXUS)** &mdash; Autonomous multi-agent AI research hub with citation-backed intelligence reports (Python, FastAPI, LangChain, WebSockets).
+- 📐 **[ExamArchitect](https://github.com/SparshGarg999/ExamArchitect)** &mdash; Academic analytics portal with PDF parsing & prediction engine (React, Gemini 2.5 Flash, PostgreSQL).
+- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling.
+
+---
+
 ## 🏆 Open Source Contributions & Merged PRs
 
 | Organization / Repo | Contribution & Impact | Status |
@@ -71,14 +93,6 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 | **💻 Microsoft / VS Code**<br/>`microsoft/vscode` | Core editor UI and functionality fixes. | [<img src="https://img.shields.io/badge/Microsoft-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />](https://github.com/microsoft/vscode) |
 | **☸️ Kubernetes**<br/>`kubernetes/kubernetes` | Orchestration utilities & developer experience tooling. | [<img src="https://img.shields.io/badge/Kubernetes-Core-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />](https://github.com/kubernetes/kubernetes) |
 | **🚀 Career-Ops**<br/>`santifer/career-ops` | Path resolution modules, CLI automations, and tests in JS & Go. | [<img src="https://img.shields.io/badge/PR_%231864-Merged-2ea44f?style=flat-square&logo=github&logoColor=white" />](https://github.com/santifer/career-ops/pull/1864) |
-
----
-
-## 📘 Featured Systems & Projects
-
-- 🪐 **[NEXUS](https://github.com/SparshGarg999/NEXUS)** &mdash; Autonomous multi-agent AI research hub with citation-backed intelligence reports (Python, FastAPI, LangChain, WebSockets).
-- 📐 **[ExamArchitect](https://github.com/SparshGarg999/ExamArchitect)** &mdash; Academic analytics portal with PDF parsing & prediction engine (React, Gemini 2.5 Flash, PostgreSQL).
-- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling.
 
 ---
 
@@ -101,20 +115,12 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 ---
 
-## 🏅 Honors & Achievements
-
-- 🥇 **Smart India Hackathon 2022**: Runner-Up (out of 20,000+ national competing teams).
-- ⚔️ **LeetCode Knight**: Peak Rating **1900+**.
-- ⭐ **CodeChef 3-Star**: Global Ranks **75** and **114** in rated star rounds.
-- 🎯 **CodeKaze**: Top 10 Rank in College division.
-
----
-
-## 📊 Live GitHub Analytics
+## 📊 Live GitHub Streak & Analytics
 
 <p align="center">
+  <!-- GitHub Streak Stats by DenverCoder1 - https://github.com/DenverCoder1/github-readme-streak-stats -->
   <a href="https://github.com/SparshGarg999">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=SparshGarg999&show_icons=true&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Stats" />
+    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=SparshGarg999&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Streak" />
   </a>
   &nbsp;
   <a href="https://github.com/SparshGarg999">
@@ -125,5 +131,5 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 ---
 
 <p align="center">
-  <i>Designed & Engineered by Sparsh Garg</i>
+  <i>Designed & Engineered by Sparsh Garg • Powered by GitHub Actions</i>
 </p>
