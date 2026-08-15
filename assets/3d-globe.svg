@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <linearGradient id="globeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes spinGlobe {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes pulseNode {
+        0%, 100% { r: 5; opacity: 1; }
+        50% { r: 9; opacity: 0.4; }
+      }
+      .spin-ring { transform-origin: 400px 200px; animation: spinGlobe 20s linear infinite; }
+      .spin-reverse { transform-origin: 400px 200px; animation: spinGlobe 30s linear infinite reverse; }
+      .node-pulse { animation: pulseNode 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="10" y="10" width="780" height="380" rx="16" fill="url(#globeGrad)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Background Stars -->
+  <circle cx="80" cy="70" r="1.5" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="150" cy="320" r="1" fill="#00f0ff" opacity="0.5"/>
+  <circle cx="710" cy="90" r="1.5" fill="#7000ff" opacity="0.8"/>
+  <circle cx="680" cy="310" r="2" fill="#00f0ff" opacity="0.7"/>
+
+  <!-- Left Stats Info -->
+  <text x="40" y="55" font-size="13" font-weight="bold" fill="#00f0ff">🌐 GLOBAL OPEN SOURCE ECOSYSTEM</text>
+  <text x="40" y="75" font-size="11" fill="#8b949e">Active Contributions &amp; Multi-Agent Nodes</text>
+
+  <rect x="40" y="100" width="160" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="55" y="120" font-size="10" fill="#8b949e">PRIMARY NODES</text>
+  <text x="55" y="140" font-size="13" font-weight="bold" fill="#7ee787">React • TF • K8s</text>
+
+  <rect x="40" y="170" width="160" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="55" y="190" font-size="10" fill="#8b949e">LEETCODE RATING</text>
+  <text x="55" y="210" font-size="13" font-weight="bold" fill="#ffa657">1900+ Knight</text>
+
+  <!-- Right Info Cards -->
+  <rect x="600" y="100" width="160" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="615" y="120" font-size="10" fill="#8b949e">LOCATION</text>
+  <text x="615" y="140" font-size="13" font-weight="bold" fill="#79c0ff">India • Global</text>
+
+  <rect x="600" y="170" width="160" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="615" y="190" font-size="10" fill="#8b949e">STATUS</text>
+  <text x="615" y="210" font-size="13" font-weight="bold" fill="#3fb950">● ONLINE</text>
+
+  <!-- CENTER 3D HOLOGRAPHIC GLOBE -->
+  <g filter="url(#glow)">
+    <!-- Globe Atmosphere -->
+    <circle cx="400" cy="195" r="115" fill="#00f0ff" opacity="0.04"/>
+    <circle cx="400" cy="195" r="110" fill="none" stroke="#00f0ff" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- 3D Latitudes -->
+    <ellipse cx="400" cy="195" rx="110" ry="28" fill="none" stroke="#388bfd" stroke-width="1" stroke-dasharray="4 4"/>
+    <ellipse cx="400" cy="195" rx="110" ry="65" fill="none" stroke="#388bfd" stroke-width="1" stroke-dasharray="4 4"/>
+    <ellipse cx="400" cy="195" rx="110" ry="95" fill="none" stroke="#388bfd" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- 3D Longitudes -->
+    <ellipse cx="400" cy="195" rx="28" ry="110" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.6"/>
+    <ellipse cx="400" cy="195" rx="65" ry="110" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.6"/>
+    <ellipse cx="400" cy="195" rx="95" ry="110" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.6"/>
+
+    <!-- Equatorial Axis -->
+    <line x1="290" y1="195" x2="510" y2="195" stroke="#7000ff" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+    <!-- Rotating Orbital Rings -->
+    <g class="spin-ring">
+      <ellipse cx="400" cy="195" rx="135" ry="38" fill="none" stroke="url(#neonCyan)" stroke-width="1.5" stroke-dasharray="10 15"/>
+      <circle cx="535" cy="195" r="4" fill="#00f0ff"/>
+    </g>
+
+    <g class="spin-reverse">
+      <ellipse cx="400" cy="195" rx="135" ry="38" fill="none" stroke="#7000ff" stroke-width="1.2" stroke-dasharray="5 10"/>
+      <circle cx="265" cy="195" r="3" fill="#7000ff"/>
+    </g>
+
+    <!-- Global Connection Nodes -->
+    <circle cx="335" cy="160" r="5" fill="#00f0ff" class="node-pulse"/>
+    <text x="310" y="148" font-size="10" font-weight="bold" fill="#00f0ff">Facebook / US</text>
+
+    <circle cx="410" cy="138" r="5" fill="#7ee787" class="node-pulse"/>
+    <text x="415" y="130" font-size="10" font-weight="bold" fill="#7ee787">Microsoft / UK</text>
+
+    <circle cx="445" cy="205" r="6" fill="#ffa657" class="node-pulse"/>
+    <text x="455" y="220" font-size="10" font-weight="bold" fill="#ffa657">Genpact / India</text>
+
+    <!-- Connecting Arcs -->
+    <path d="M 335,160 Q 370,120 410,138" fill="none" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <path d="M 410,138 Q 435,165 445,205" fill="none" stroke="#7ee787" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Bottom Caption Bar -->
+  <rect x="40" y="335" width="720" height="28" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="400" y="353" font-size="11" fill="#8b949e" text-anchor="middle">⚡ SPARSH GARG • 3D MULTI-AGENT ARCHITECTURE &amp; OPEN SOURCE GLOBE ⚡</text>
+</svg>
