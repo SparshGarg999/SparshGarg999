@@ -23,16 +23,30 @@
 
 ---
 
-## 🌐 3D Interactive WebGL Globe & Real-Time AI Cyber Messenger
+## 🏙️ 3D Isometric Developer Workstation & City
 
 <p align="center">
-  <a href="https://github.com/SparshGarg999/TarunPortfolio">
-    <img src="assets/3d-globe.svg" alt="Sparsh Garg 3D Holographic Globe & Real-Time Messenger" width="100%" />
-  </a>
+  <img src="assets/isometric-island.jpg" alt="Sparsh Garg 3D Isometric Developer Island" width="100%" />
 </p>
 
+---
+
+## 🌐 3D Contribution Skyline & Towers
+
 <p align="center">
-  👉 <b><a href="https://github.com/SparshGarg999/TarunPortfolio">LAUNCH REAL-TIME 3D WEB APP &amp; AI CHATBOT 🚀</a></b>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-season-animate.svg">
+    <img alt="Sparsh Garg 3D Contribution Skyline" src="profile-3d-contrib/profile-night-view.svg" width="100%">
+  </picture>
+</p>
+
+---
+
+## 🐍 3D Animated Contribution Snake Matrix
+
+<p align="center">
+  <img src="assets/github-contribution-grid-snake-dark.svg" alt="Sparsh Garg Cyber Snake Contribution Grid" width="100%" />
 </p>
 
 ---
@@ -64,7 +78,7 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 
 - 🪐 **[NEXUS](https://github.com/SparshGarg999/NEXUS)** &mdash; Autonomous multi-agent AI research hub with citation-backed intelligence reports (Python, FastAPI, LangChain, WebSockets).
 - 📐 **[ExamArchitect](https://github.com/SparshGarg999/ExamArchitect)** &mdash; Academic analytics portal with PDF parsing & prediction engine (React, Gemini 2.5 Flash, PostgreSQL).
-- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling and 3D WebGL Globe.
+- 💼 **[TarunPortfolio](https://github.com/SparshGarg999/TarunPortfolio)** &mdash; Modern interactive portfolio web application with Lenis smooth scrolling.
 
 ---
 
@@ -93,6 +107,20 @@ I am a **Software Engineer** specializing in enterprise automation, multi-agent 
 - ⚔️ **LeetCode Knight**: Peak Rating **1900+**.
 - ⭐ **CodeChef 3-Star**: Global Ranks **75** and **114** in rated star rounds.
 - 🎯 **CodeKaze**: Top 10 Rank in College division.
+
+---
+
+## 📊 Live GitHub Analytics
+
+<p align="center">
+  <a href="https://github.com/SparshGarg999">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=SparshGarg999&show_icons=true&theme=tokyonight&hide_border=false" alt="Sparsh Garg GitHub Stats" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/SparshGarg999">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SparshGarg999&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
+  </a>
+</p>
 
 ---
 
